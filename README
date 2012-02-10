@@ -1,0 +1,17 @@
+Battleship! C++ Console Game
+w/ Online Multiplayer
+
+Game by Terrance Coyle
+All Rights Reserved
+Feel free to use for personal reasons
+
+Server is based off an online tutorial and modified for turn based use - feel free to use for whatever you wish.
+
+Compile both.
+Run server with chosen port (ie: ./server <port>)
+Run game on 2 different machines (ie: ./battleship <ip or host name> <port>)
+
+Game will automatically wait for a match from the server.
+Once matchmake is complete, game begins.
+
+Have fun and enjoy. It will be updated.
