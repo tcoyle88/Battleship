@@ -49,19 +49,6 @@ class Ship
 	void printCoords();
 	bool checkPoint(int,int,int);
 	
-friend ostream& operator<< (ostream& out, Ship& object) {
-out << object.size << " " << object.hits << " " << object.direct << " " << object.stat << " " << object.start; 
-return out;
-}
-
-friend istream& operator>> (istream& in, Ship& object) {
-in >> object.size;
-in >> object.hits;
-in >> object.direct;
-in >> object.stat;
-in >> object.start;
-return in;
-}
 
 };
 
